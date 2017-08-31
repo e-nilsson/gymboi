@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  background: #EFEFEF;
+  color: #2F2F2F;
+}
+
+.user-form {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 1.2rem;
+}
+
+.user-form .form-group {
+  margin: 0 auto 1rem;
+}
+
+.user-form button {
+  width: 100%;
+}
+
+button {
+  background: #872dda;
+  border: 0;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #9945e6;
+  cursor: pointer;
+}
+
+.range-slider {
+  padding-bottom: 2rem;
+}
+
+.range-slider label {
+  margin-bottom: 1.5rem;
+}
+
+.user-result {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #FFF;
+  font-size: 1.2rem;
+  box-shadow: 0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23);
+}
+
+.user-result__details {
+  padding: 2rem 0 8rem;
+}
+
+.user-details__item {
+  margin-bottom: 1rem;
+}
+
+.user-details__item span {
+  font-weight: bold;
+}
+
+.user-result .calltoaction {
+  margin: 2rem auto 0;
+  text-align: center;
+}
+
+.user-result .calltoaction button {
+  width: 100%;
+  background: #e85151;
+}
+
+
+
+
+.input-range__slider {
+  background: #872dda !important;
+  border: 1px solid #872dda !important;
+}
+
+.input-range__track--active {
+  background: #872dda !important;
+}
+
+.input-range__track {
+  background: #C5C5C5 !important;
+}
+
+
+.anim-appear {
+  opacity: 0.01;
+  transform: translateY(300px);
+}
+ 
+.anim-appear.anim-appear-active{
+  opacity: 2;
+  transform: translateY(0);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);;
+}
